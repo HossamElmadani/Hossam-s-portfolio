@@ -42,27 +42,32 @@ const Hero = () => {
 
       <div className="flex justify-center relative my-20 z-10">
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
-          <p className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-80">
+          {/* <p className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-80">
             Houssam Elmadani web specialist
-          </p>
+          </p> */}
 
           {/**
            *  Link: https://ui.aceternity.com/components/text-generate-effect
            *
            *  change md:text-6xl, add more responsive code
            */}
+           <h1>
           <TextGenerateEffect
-            words="Transforming Concepts into Seamless User Experiences"
+            words="Craft Compelling User Experiences with Next.js"
             className="text-center text-[40px] md:text-5xl lg:text-6xl"
           />
+          </h1>
 
-          <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Hi! I&apos;m Houssam, a Next.js Developer based in Morocco.
+          <h3 className="text-center md:tracking-wider mb-4 text-md md:text-lg lg:text-2xl">
+            Hi! I&apos;m Houssam Elmadani - Web Specialist
+          </h3>
+          <p className=" text-sm md:text-md md:tracking-wider mb-4 text-center text-blue-100 max-w-80 sm:max-w-full">
+          I help businesses dominate search engines and convert website visitors into loyal customers by designing and developing seamless user experiences using Next.js.
           </p>
 
           <a href="about">
             <MagicButton
-              title="Show my work"
+              title="Explore My Work"
               icon={<FaLocationArrow />}
               position="right"
             />
